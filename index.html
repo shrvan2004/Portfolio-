@@ -4,13 +4,13 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Shrvan Singh Thakur | AI & QA Engineer</title>
+<title>Shrvan Singh Thakur</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
 
 </head>
 
@@ -23,80 +23,87 @@
 <ul>
 
 <li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
+<li><a href="#research">Research</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#contact">Contact</a></li>
 
 </ul>
+
+<button id="themeToggle">🌗</button>
 
 </nav>
 
 
 <section class="hero">
 
-<div class="hero-content">
+<div class="hero-text">
 
-<img src="assets/profile.png" class="profile">
-
-<h1>Shrvan Singh Thakur</h1>
-
-<h3>AI Systems Testing • QA Engineering • Data Automation</h3>
+<h1>Reliable AI Systems</h1>
 
 <p>
-Building reliable intelligent systems through AI validation,
-automation frameworks, and data-driven experimentation.
+
+QA Engineer & AI Systems Tester focused on reliability,
+automation frameworks, and intelligent data validation.
+
 </p>
 
-<a class="btn" href="assets/resume.pdf">Download Resume</a>
+<div class="buttons">
+
+<a class="primary" href="assets/resume.pdf">Download Resume</a>
+
+<a class="secondary" href="#research">Research</a>
 
 </div>
+
+</div>
+
+<img src="assets/profile.png" class="profile">
 
 </section>
 
 
 <section id="about">
 
-<h2>About Me</h2>
+<h2>About</h2>
 
 <p>
 
-Computer Science undergraduate passionate about
-AI system reliability, intelligent testing frameworks,
-and scalable data validation systems.
-
-Experienced with LLM systems, backend SQL validation,
-automation pipelines, and analytics dashboards.
+Computer Science student exploring reliability challenges in AI systems.
+Interested in LLM testing frameworks, automated data pipelines,
+and experimentation-driven engineering.
 
 </p>
 
 </section>
 
 
-<section id="skills">
+<section id="research">
 
-<h2>Technical Skills</h2>
+<h2>Research & Experiments</h2>
 
-<div class="skills">
+<div class="card">
 
-<div class="skill">
-Python
-<div class="bar"><div style="width:90%"></div></div>
+<h3>LLM Output Validation</h3>
+
+<p>
+
+Experimenting with structured prompt validation
+and reliability evaluation pipelines.
+
+</p>
+
 </div>
 
-<div class="skill">
-SQL
-<div class="bar"><div style="width:85%"></div></div>
-</div>
+<div class="card">
 
-<div class="skill">
-Testing Automation
-<div class="bar"><div style="width:80%"></div></div>
-</div>
+<h3>AI Business Analytics Chatbot</h3>
 
-<div class="skill">
-Data Analytics
-<div class="bar"><div style="width:85%"></div></div>
-</div>
+<p>
+
+LLM-powered system that analyzes structured datasets
+and generates insights with verification layers.
+
+</p>
 
 </div>
 
@@ -105,9 +112,33 @@ Data Analytics
 
 <section id="projects">
 
-<h2>Projects</h2>
+<h2>Engineering Projects</h2>
 
 <div id="repo-container"></div>
+
+</section>
+
+
+<section id="github">
+
+<h2>GitHub Activity</h2>
+
+<img src="https://ghchart.rshah.org/YOUR_GITHUB_USERNAME">
+
+</section>
+
+
+<section id="terminal">
+
+<h2>Terminal</h2>
+
+<div class="terminal">
+
+<div id="terminal-output"></div>
+
+<input id="terminal-input" placeholder="type 'help'">
+
+</div>
 
 </section>
 
@@ -118,9 +149,7 @@ Data Analytics
 
 <p>Email: thakurshrvan2004@gmail.com</p>
 
-<p>Phone: +91 9009208506</p>
-
-<a href="https://linkedin.com">LinkedIn</a>
+<p>LinkedIn: linkedin.com/in/shrvan-singhthakur</p>
 
 </section>
 
@@ -132,6 +161,7 @@ Data Analytics
 </footer>
 
 <script src="script.js"></script>
+<script src="terminal.js"></script>
 
 </body>
 </html>
