@@ -6,25 +6,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Shrvan Singh Thakur</title>
+<title>Shrvan Singh Thakur — AI Systems</title>
 
 <link rel="stylesheet" href="style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
 </head>
 
 <body>
 
+<canvas id="bg"></canvas>
+
 <nav>
 
-<div class="logo">Shrvan</div>
+<div class="logo">Shrvan AI Lab</div>
 
 <ul>
 
 <li><a href="#about">About</a></li>
 <li><a href="#research">Research</a></li>
 <li><a href="#projects">Projects</a></li>
+<li><a href="#terminal">Terminal</a></li>
 <li><a href="#contact">Contact</a></li>
 
 </ul>
@@ -36,14 +41,14 @@
 
 <section class="hero">
 
-<div class="hero-text">
+<div class="hero-left">
 
-<h1>Reliable AI Systems</h1>
+<h1>Engineering Reliable AI Systems</h1>
 
 <p>
 
-QA Engineer & AI Systems Tester focused on reliability,
-automation frameworks, and intelligent data validation.
+Focused on AI testing frameworks, automation pipelines,
+and reliability validation for intelligent systems.
 
 </p>
 
@@ -51,7 +56,7 @@ automation frameworks, and intelligent data validation.
 
 <a class="primary" href="assets/resume.pdf">Download Resume</a>
 
-<a class="secondary" href="#research">Research</a>
+<a class="secondary" href="#projects">View Work</a>
 
 </div>
 
@@ -68,9 +73,9 @@ automation frameworks, and intelligent data validation.
 
 <p>
 
-Computer Science student exploring reliability challenges in AI systems.
-Interested in LLM testing frameworks, automated data pipelines,
-and experimentation-driven engineering.
+Computer Science student exploring reliability engineering
+for AI systems, including prompt validation,
+data pipelines, and intelligent automation.
 
 </p>
 
@@ -79,16 +84,16 @@ and experimentation-driven engineering.
 
 <section id="research">
 
-<h2>Research & Experiments</h2>
+<h2>Research Experiments</h2>
 
 <div class="card">
 
-<h3>LLM Output Validation</h3>
+<h3>LLM Output Reliability</h3>
 
 <p>
 
-Experimenting with structured prompt validation
-and reliability evaluation pipelines.
+Building evaluation pipelines to validate structured
+LLM outputs in analytics workflows.
 
 </p>
 
@@ -96,12 +101,12 @@ and reliability evaluation pipelines.
 
 <div class="card">
 
-<h3>AI Business Analytics Chatbot</h3>
+<h3>Automation Data Systems</h3>
 
 <p>
 
-LLM-powered system that analyzes structured datasets
-and generates insights with verification layers.
+Selenium pipelines with verification layers
+for scalable data extraction.
 
 </p>
 
@@ -112,25 +117,16 @@ and generates insights with verification layers.
 
 <section id="projects">
 
-<h2>Engineering Projects</h2>
+<h2>Projects</h2>
 
 <div id="repo-container"></div>
 
 </section>
 
 
-<section id="github">
-
-<h2>GitHub Activity</h2>
-
-<img src="https://ghchart.rshah.org/YOUR_GITHUB_USERNAME">
-
-</section>
-
-
 <section id="terminal">
 
-<h2>Terminal</h2>
+<h2>AI Terminal</h2>
 
 <div class="terminal">
 
@@ -161,6 +157,7 @@ and generates insights with verification layers.
 </footer>
 
 <script src="script.js"></script>
+<script src="three-bg.js"></script>
 <script src="terminal.js"></script>
 
 </body>
